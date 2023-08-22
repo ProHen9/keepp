@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "keepp",
+    "description": "Save your Websites for later.",
+    "version": "1.0",
+    "permissions": ["scripting", "activeTab"],
+    "host_permissions": [
+      "https://*/*",
+      "http://*/*"
+    ],
+    "action": {
+      "default_popup": "./index.html"
+    }
+  }
